@@ -19,7 +19,7 @@ The purpose of this project is to automate the process of sending emails for var
 To set up and run the emailing script on your own AWS Ubuntu server, follow these steps:
 
 1. Clone the repository to your local machine:  
-`https://github.com/PierceBrandies/AutoMail.git`
+`git clone https://github.com/PierceBrandies/AutoMail.git`
 
 2. Install the required dependencies:  
 `pip install requirements.txt`
@@ -39,6 +39,17 @@ To host the emailing script on AWS, follow these steps:
 3. Install Python and required dependencies.
 4. Configure security group settings to allow SMTP traffic.
 5. Set up cron jobs to schedule the script to run at your specified time.
+
+## Demonstration
+
+### Example config.py
+<img src="images/config-demo.png" alt="Image Description" width="570" height="300">
+
+### Crontab
+<img src="images/cron-demo.png" alt="Image Description" width="490" height="350">
+
+### Email Recieved
+<img src="images/email-demo.png" alt="Image Description" width="365" height="335">
 
 ## License
 
